@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+  font-family: "Acme", sans-serif;
+}
+.hidden {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.backgroundimg {
+  position: absolute;
+  opacity: 60%;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: -2;
+}
+#input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#login-input input {
+  height: 50px;
+  width: 400px;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  outline: none;
+
+  font-size: 30px;
+}
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+#clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+#todo-form {
+  margin-left: 220px;
+  width: 205px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todo-form i {
+  cursor: pointer;
+}
+#todo-form input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 55px;
+}
+#todo-list {
+  width: 320px;
+  height: 350px;
+  margin-left: 140px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  background-color: transparent;
+}
+#close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 20px;
+}
+#menu-open:hover {
+  transform: scale(1.5);
+  color: red;
+}
+#close:hover {
+  transform: scale(1.5);
+  color: red;
+}
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
